@@ -39,7 +39,7 @@ public class XEyes extends JPanel implements MouseListener,MouseMotionListener{
         eye_1 = new Eye(269, 290, 49, 37);
         eye_2 = new Eye(372, 290, 49, 37);
         addMouseListener(this);
-     // addMouseMotionListener(this);
+        addMouseMotionListener(this);
         myFrame.setVisible(true);
         
         }
